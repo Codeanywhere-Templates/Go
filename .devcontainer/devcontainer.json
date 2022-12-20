@@ -1,6 +1,26 @@
 {
   "build": {
-      "dockerfile": "Dockerfile"
+      "dockerfile": "Dockerfile",
+      "context": "."
+  },
+  "features": {
+      "ghcr.io/devcontainers/features/common-utils:1": {
+          "installZsh": "true",
+          "username": "vscode",
+          "uid": "1000",
+          "gid": "1000",
+          "upgradePackages": "true"
+      },
+      "ghcr.io/devcontainers/features/go:1": {
+          "version": "none"
+      },
+      "ghcr.io/devcontainers/features/node:1": {
+          "version": "none"
+      },
+      "ghcr.io/devcontainers/features/git:1": {
+          "version": "latest",
+          "ppa": "false"
+      }
   },
   "runArgs": [
     "--cap-add=SYS_PTRACE",
