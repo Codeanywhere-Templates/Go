@@ -1,6 +1,6 @@
 This is an example Go project used in Codeanywhere.
 
-[Try it out](https://app.codeanywhere.com/workspace/create#https://github.com/Codeanywhere-Templates/go)
+[Try it out](https://app.codeanywhere.com/#https://github.com/Codeanywhere-Templates/go)
 
 ### Running the project
 
